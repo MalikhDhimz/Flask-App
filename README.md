@@ -7,21 +7,19 @@
 </head>
 <body>
     <h1>Grade Calculator</h1>
-    <form method="POST" action="https://https://github.com/MalikhDhimz/Flask-App.render.com/">
+    <form method="POST" action="/">
         <label for="prelim">Enter your Prelim Grade:</label>
         <input type="text" id="prelim" name="prelim" required>
         <input type="submit" value="Calculate">
     </form>
 
-    {% with messages = get_flashed_messages() %}
-    {% if messages %}
+    {% if get_flashed_messages() %}
     <ul>
-        {% for message in messages %}
+        {% for message in get_flashed_messages() %}
         <li>{{ message }}</li>
         {% endfor %}
     </ul>
     {% endif %}
-    {% endwith %}
 
     {% if prelim %}
     <h2>Results</h2>
@@ -37,3 +35,4 @@
     {% endif %}
 </body>
 </html>
+
