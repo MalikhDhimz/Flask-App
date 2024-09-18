@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Grade Calculator</h1>
-    <form method="POST" action="https://https://github.com/MalikhDhimz/Flask-App.render.com/">
+    <form method="POST" action="/">
         <label for="prelim">Enter your Prelim Grade:</label>
         <input type="text" id="prelim" name="prelim" required>
         <input type="submit" value="Calculate">
