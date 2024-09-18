@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Grade Calculator</h1>
-    <form method="POST" action="/">
+    <form method="POST" action="https://flask-app-kg9h.onrender.com/">
         <label for="prelim">Enter your Prelim Grade:</label>
         <input type="text" id="prelim" name="prelim" required>
         <input type="submit" value="Calculate">
